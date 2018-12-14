@@ -61,7 +61,7 @@ args = parser.parse_args()
 #'/home/city/Downloads/data_depth_selection/depth_selection/test_depth_prediction_anonymous/image'
 for i in range(12,40):
     fn = '/home/city/disk/StereoDepth/ImageLeft/0000%d.tiff' % i
-    fn = '/home/city/PycharmProjects/DORN/data/cut01.jpg'
+    fn = '/home/city/disk/2h_1.jpg'
     args.filename =fn
     depth = depth_prediction(args.filename)
     depth = depth
