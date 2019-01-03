@@ -13,6 +13,9 @@ parser.add_argument('--outputroot', type=str, default='./result/KITTI', help='ou
 caffe.set_mode_cpu()
 #caffe.set_device(0)
 net = caffe.Net('models/KITTI/deploy.prototxt', 'models/KITTI/cvpr_kitti.caffemodel', caffe.TEST)
+
+exit()
+
 pixel_means = np.array([[[103.0626, 115.9029, 123.1516]]])
 
 def depth_prediction(filename):
