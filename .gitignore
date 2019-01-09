@@ -1,0 +1,13 @@
+*.xml
+*.iml
+*.pyc
+*.pyo
+.idea/
+.cache/
+*.csv
+dl_data/
+!/log/check_log.py
+*.jpg
+log/
+!/png/
+
